@@ -1,3 +1,5 @@
+# https://levelup.gitconnected.com/docker-compose-made-easy-with-elasticsearch-and-kibana-4cb4110a80dd
+
 version: "3.0"
 
 services:
