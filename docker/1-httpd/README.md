@@ -17,7 +17,7 @@
 
 1. Changes:
 - index.html
-    ```
+    ```html
     <p>Version 2</p>
     ```
 - Dockerfile
