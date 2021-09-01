@@ -8,7 +8,10 @@ ENV ASPNETCORE_URLS=http://+:8080
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
+
 COPY ["aspnet/aspnet.csproj", "aspnet/"]
+COPY ["aspnet.otherproj/aspnet.otherproj.csproj", "aspnet.otherproj/"]
+
 RUN dotnet restore "aspnet/aspnet.csproj"
 COPY . .
 WORKDIR "/src/aspnet"
